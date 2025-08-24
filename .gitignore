@@ -1,0 +1,28 @@
+# 忽略大型模型文件
+*.pkl
+
+# 忽略数据文件（如果太大）
+# *.csv
+
+# 忽略临时文件
+catboost_info/tmp/
+
+# 忽略Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 忽略Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# 忽略IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
